@@ -12,6 +12,9 @@ We provide several category for each access of the data.
 
 ## News !!
 
+## Update: 2026-03-27
+- Add Monado SLAM Dataset (MSD)
+
 ## Update: 2024-07-31
 - Add FusionPortable Series (V1: Campus-scene with diverse platforms, V2: From Campus to Highway, scalable environments.)
 
@@ -59,6 +62,7 @@ We provide several category for each access of the data.
 ## Category
 - [Awesome SLAM Datasets ](#awesome-slam-datasets-)
   - [News !!](#news-)
+  - [Update: 2026-03-27](#update-2026-03-27)
   - [Update: 2024-07-31](#update-2024-07-31)
   - [Update: 2023-06-20](#update-2023-06-20)
   - [Update: 2022-8-15](#update-2022-8-15)
@@ -103,6 +107,7 @@ We provide several category for each access of the data.
 
 | Shortname                                                                                                | Affiliation  | Year | Platform   | Publication | Environment           | GT-Pose | GT-Map | IMU | GPS | Labels | Lidar      | Cameras | RGBD | Event | Radar | Sonar | DVL | Other                   |
 |----------------------------------------------------------------------------------------------------------|--------------|------|------------|-------------|-----------------------|---------|--------|-----|-----|--------|------------|---------|------|-------|-------|-------|-----|-------------------------|
+| [Monado SLAM Dataset (MSD)](https://huggingface.co/datasets/collabora/monado-slam-datasets) | Collabora | 2025 | Head-mounted | IROS | Indoor | O | | O | | | | O | | | | | | VR Headsets (Valve Index, Samsung Odyssey+, HP Reverb G2); 5:15h footage; Lighthouse GT |
 | [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html) | Sapienza University of Rome| 2024 | Hand, Veh  | ICRA | Indoor + Outdoor | O  |  |O  |  |  |O  |O  |  |  |  |  |  |Stereo Cams; Multiple configuration; SLAM Benchmark  |
 | [4Seasons Dataset](https://www.4seasons-dataset.com/) | Technical University of Munich| 2020 | Veh    |  GCPR  | Outdoor                | O       |   O     | O   |    O |        | O          | O       |  O    |    O    |       |       |     |    
 | [M2DGR](https://github.com/SJTU-ViSYS/M2DGR/) | Shanghai Jiaotong University | 2021 | Mob     |  RA-L  | Indoor + Outdoor                | O       |        | O   |   O  |        | O          | O       |  O    |    O    |       |       |     |   
@@ -186,6 +191,7 @@ _Evaluation methods for SLAM benchmarks_
 
 ### Odometry
 _Dataset for odometry Benchmark_
+- [Monado SLAM Dataset (MSD)](https://huggingface.co/datasets/collabora/monado-slam-datasets)
 - [FusionPortable](https://fusionportable.github.io/dataset/fusionportable/)
 - [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
@@ -303,6 +309,7 @@ _Variation of mapping structures_
 
 ### Extreme Condition
 _Extreme environment, motions_
+- [Monado SLAM Dataset (MSD)](https://huggingface.co/datasets/collabora/monado-slam-datasets): High-intensity motions, dynamic occlusions, adverse lighting, sensor saturation
 - [FinnForest Dataset](http://urn.fi/urn:nbn:fi:att:9b8157a7-1e0f-47c2-bd4e-a19a7e952c0d)
 - [UZH-FPV Drone Racing](http://rpg.ifi.uzh.ch/uzh-fpv.html)
 - [Underwater Caves SONAR and Vision Dataset](http://cirs.udg.edu/caves-dataset/): Underwater Environment
@@ -383,6 +390,7 @@ _Water surface vehicle such as canoe and boat_
 
 ### Hand-held Device
 _Hand-held platform by human_
+- [Monado SLAM Dataset (MSD)](https://huggingface.co/datasets/collabora/monado-slam-datasets)
 - [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [Collaborative SLAM Dataset (CSD)](https://github.com/torrvision/CollaborativeSLAMDataset)
 - [SceneNet RBG-D Dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
@@ -437,6 +445,7 @@ _City, campus, town, and infrastructures
 
 ### Indoor
 _Indoor environment_
+- [Monado SLAM Dataset (MSD)](https://huggingface.co/datasets/collabora/monado-slam-datasets)
 - [VBR SLAM Dataset](https://www.rvp-group.net/slam-dataset.html)
 - [ICL Dataset](https://peringlab.org/lmdata/)
 - [FMDataset](https://github.com/zhuzunjie17/FastFusion)
